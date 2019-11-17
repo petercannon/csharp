@@ -1,0 +1,11 @@
+C:\Users\Kids\Desktop\c#\practice\src\Project\bin\Debug\netcoreapp3.0\Project.exe
+C:\Users\Kids\Desktop\c#\practice\src\Project\bin\Debug\netcoreapp3.0\Project.deps.json
+C:\Users\Kids\Desktop\c#\practice\src\Project\bin\Debug\netcoreapp3.0\Project.runtimeconfig.json
+C:\Users\Kids\Desktop\c#\practice\src\Project\bin\Debug\netcoreapp3.0\Project.runtimeconfig.dev.json
+C:\Users\Kids\Desktop\c#\practice\src\Project\bin\Debug\netcoreapp3.0\Project.dll
+C:\Users\Kids\Desktop\c#\practice\src\Project\bin\Debug\netcoreapp3.0\Project.pdb
+C:\Users\Kids\Desktop\c#\practice\src\Project\obj\Debug\netcoreapp3.0\Project.csprojAssemblyReference.cache
+C:\Users\Kids\Desktop\c#\practice\src\Project\obj\Debug\netcoreapp3.0\Project.AssemblyInfoInputs.cache
+C:\Users\Kids\Desktop\c#\practice\src\Project\obj\Debug\netcoreapp3.0\Project.AssemblyInfo.cs
+C:\Users\Kids\Desktop\c#\practice\src\Project\obj\Debug\netcoreapp3.0\Project.dll
+C:\Users\Kids\Desktop\c#\practice\src\Project\obj\Debug\netcoreapp3.0\Project.pdb

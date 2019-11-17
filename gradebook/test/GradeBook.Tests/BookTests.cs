@@ -8,23 +8,23 @@ namespace GradeBook.Tests
         [Fact]
         public void NameCannotBeInitialisedAsEmpty()
         {
-            Book book1;
-            Action actSetToEmpty = () => book1 = new Book("");
+            InMemoryBook book1;
+            Action actSetToEmpty = () => book1 = new InMemoryBook("");
             Assert.Throws<ArgumentNullException>(actSetToEmpty);
         }
 
         [Fact]
         public void NameCannotBeChangedToNull()
         {
-            var book1 = new Book("book 1");
+            var book1 = new InMemoryBook("book 1");
             Action actChangeToEmpty = () => book1.Name = "" ;
-            Assert.Throws<ArgumentException>(actChangeToEmpty);
+            Assert.Throws<ArgumentNullException>(actChangeToEmpty);
         }
         
         [Fact]
         public void AddGradeThrowsAnArgmentExceptionForInvalidGrade()
         {
-            var book1 = new Book("book 1");     
+            var book1 = new InMemoryBook("book 1");     
             
             Action actOver = () => book1.AddGrade(105);
             Action actUnder = () => book1.AddGrade(-1);
@@ -53,7 +53,7 @@ namespace GradeBook.Tests
         public void BookTestStatistics()
         {
             // arrange
-            var book = new Book("book 1");
+            var book = new InMemoryBook("book 1");
             book.AddGrade(89.1);
             book.AddGrade(90.5);
             book.AddGrade(77.3);
@@ -70,7 +70,7 @@ namespace GradeBook.Tests
         [Fact]
         public void LetterGradeAddsCorrectGrade()
         {
-            var myBook1 = new Book("Peter's Grade Book");
+            var myBook1 = new InMemoryBook("Peter's Grade Book");
             myBook1.AddGrade('A');
             myBook1.AddGrade('F');
             Statistics stats = new Statistics();

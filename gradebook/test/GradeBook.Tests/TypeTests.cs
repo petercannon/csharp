@@ -134,9 +134,9 @@ namespace GradeBook.Tests
             Assert.NotEqual("Book 1", book1.Name);
         }
 
-        private void GetBookSetName(ref Book book, string name)
+        private void GetBookSetName(ref InMemoryBook book, string name)
         {
-            book = new Book(name);
+            book = new InMemoryBook(name);
         }
 
         [Fact]
@@ -153,9 +153,9 @@ namespace GradeBook.Tests
             Assert.NotEqual("New Name", book1.Name);
         }
 
-        private void GetBookSetName(Book book, string name)
+        private void GetBookSetName(InMemoryBook book, string name)
         {
-            book = new Book(name);
+            book = new InMemoryBook(name);
         }
         
        
@@ -179,7 +179,7 @@ namespace GradeBook.Tests
             // also changed on book1
         }
 
-        private void SetName(Book book, string v)
+        private void SetName(InMemoryBook book, string v)
         {
             book.Name = v;
         }
@@ -215,9 +215,9 @@ namespace GradeBook.Tests
             Assert.True(Object.ReferenceEquals(book1, book2));
         }
 
-        Book GetBook(string name)
+        InMemoryBook GetBook(string name)
         {
-            return new Book(name);
+            return new InMemoryBook(name);
         }
 
 
